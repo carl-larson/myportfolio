@@ -14,8 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: purple;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,8 +24,41 @@
   color: white;
 }
 
+h1 {
+  margin-block-start: 0.33em;
+  margin-block-end: 0.33em;
+}
+
+h3, h4{
+  margin-block-start: .5em;
+  margin-block-end: .5em;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.Navigation {
+  height: 60px;
+  background-color: purple;
+}
+.NavigationButton {
+  margin: 10px;
+  padding: 5px;
+  background-color: rgb(255, 86, 255);
+}
+
+.Footer span {
+  margin: 10px;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 @keyframes App-logo-spin {
