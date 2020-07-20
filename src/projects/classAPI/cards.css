@@ -1,0 +1,53 @@
+body{
+    background-color: lightgreen;
+}
+
+h2 {
+    /* color: red; */
+}
+
+#status {
+    /* color: green; */
+}
+
+.robot {
+    height: 120px;
+    width: 100px;
+}
+#playerGrid{
+    width: 600px;
+    display: grid;
+    /* grid-template: 2, 2; */
+    grid-template-areas: 
+    "name1 name2"
+    "pic1 pic2"
+    "count1 count2"
+    "card1 card2";
+}
+#playerName{
+    grid-area: name1;
+}
+#opponentName{
+    grid-area: name2;
+}
+#playerInfo{
+    grid-area: count1;
+}
+#opponentInfo{
+    grid-area: count2;
+}
+#playerPic{
+    grid-area: pic1;
+}
+#opponentPic{
+    grid-area: pic2;
+}
+.pics{
+    height: 120px;
+    width: 100px;
+    background-color: green;
+    margin: 10px;
+}
+button {
+    background-color: lightblue;
+}
