@@ -3,15 +3,15 @@ import { Switch, Route } from 'react-router'
 import About from './components/About'
 import Resume from './components/Resume'
 import Projects from './components/Projects'
-// import RobotWar from './projects/classAPI/main'
+import RobotPath from './components/RobotPath'
 
 const Router = () => {
     return(
         <Switch>
             <Route exact path='/' component={About} />
             <Route path='/resume' component={Resume} />
-            <Route path='/projects' component={Projects} />
-            {/* <Route path='/projects/robotwar' component={RobotWar} /> */}
+            <Route exact path='/projects' component={Projects} />
+            <Route path='/robotpath' component={RobotPath} />
         </Switch>
     )
 }

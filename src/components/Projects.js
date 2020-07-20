@@ -1,11 +1,16 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 function Projects() {
     return (
         <div className="App">
             <h3>Projects</h3>
             <ul>
-                <li>Here is a link <a href="../projects/classAPI/robotWar.html" rel="noopener noreferrer">to my project</a>
+                <li>Play a game of <Link to="/robotpath" >Robot War!</Link>
+                    <p>A project from the Intro to JavaScript course at ACA.</p>
+                </li>
+                <li>Here is a link <a href="/" rel="noopener noreferrer">to my project</a>
                     <p>With a description that follows.</p>
                 </li>
             </ul>
