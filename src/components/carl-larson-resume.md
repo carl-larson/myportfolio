@@ -20,7 +20,6 @@ skills:
   - HTML
   - CSS
   - Testing
-  - Heroku and Google Cloud
   - Git/GitHub
 
 github: https://github.com/carl-larson
@@ -37,8 +36,8 @@ workexperience:
     location: Austin, TX
 
   - company: Myramid Analytical
-    dates: June 2012 - May 2016
-    title: Environmental Scientist
+    dates: May 2012 - May 2016
+    title: Environmental Technician
     location: Austin, TX
 
   - company: Aryzta LLC
