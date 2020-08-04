@@ -57,6 +57,6 @@ education:
 projects:
   - name: Play Farkle!
     desc: Beat the high scores of the other Farkle players!
-    url: # link to your deployed project
+    url: https://concrete-craft-270101.appspot.com/
 
 ---

@@ -61,11 +61,70 @@ a:hover {
   text-decoration: underline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* About Page */
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-container p {
+  width: 70%
+}
+
+/* Resume Page */
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Project Page */
+
+/* .project-page {
+  
+} */
+
+.project-flex {
+  margin-left: 15vw;
+  margin-right: 15vw;
+  width: 70vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.project-box {
+  width: 200px;
+  height: 300px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+  background-color: rgb(224, 183, 224);
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.project-box:hover {
+  width: 210px;
+  height: 310px;
+  margin: 10px;
+  box-shadow: 5px 5px 5px gray;
+  transition: 0.2s;
+}
+
+.project-box h4 {
+  width: 160px;
+}
+
+.project-features {
+  width: 160px;
 }

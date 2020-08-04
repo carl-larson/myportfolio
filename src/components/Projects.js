@@ -3,17 +3,24 @@ import React from 'react'
 
 
 function Projects() {
+    function goToSite(site) {
+        console.log('Going to site: ', site)
+    }
     return (
-        <div className="App">
-            <h3>Projects</h3>
-            <ul>
-                <li>Play a game of <span>Robot War!</span>
-                    <p>A project from the Intro to JavaScript course at ACA.</p>
-                </li>
-                <li>Here is a link <a href="/" rel="noopener noreferrer">to my project</a>
-                    <p>With a description that follows.</p>
-                </li>
-            </ul>
+        <div className="App project-page">
+            <h3>-Projects-</h3>
+            <div className="project-flex">
+                <div className="project-box" onClick={()=>{goToSite('https://concrete-craft-270101.appspot.com/')}}>
+                    <h4 className="project-title">Capstone project: Play Farkle!</h4>
+                    <h5>Features:</h5>
+                    <p className="project-features">ACA Capstone project, ReactJS, original game code, custom CRUD API using Express and MySQL, custom CSS, </p>
+                </div>
+                <div className="project-box" onClick={()=>{goToSite('website2')}}>
+                    <h4 className="project-title">Play a game of Robot War!</h4>
+                    <h5>Features:</h5>
+                    <p className="project-features">ACA Intro to JavaScript project, API fetching, DOM and Array manipulation</p>
+                </div>
+            </div>
         </div>
     )
 }
